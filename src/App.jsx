@@ -23,7 +23,7 @@ function App() {
             </div>
           </div>
 
-          <div className="">
+          <div className="flex justify-center items-center flex-col py-20">
             <p>The fastest way for startups to do any analysis</p>
 
             <p>
@@ -31,10 +31,14 @@ function App() {
               database, versioning, and collaboration.
             </p>
 
-            <label>
+            <label className="flex justify-center">
               <img src={mail} />
-              <input type="text" placeholder="Enter your email"></input>
-              <button>Sign in</button>
+              <input
+                type="text"
+                placeholder="Enter your email"
+                className="rounded-lg"
+              ></input>
+              <button>Start for free</button>
             </label>
           </div>
         </div>
