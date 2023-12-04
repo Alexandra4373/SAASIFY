@@ -1,4 +1,4 @@
-//  import
+import mail from "./assets/mail.png";
 
 function App() {
   return (
@@ -30,6 +30,12 @@ function App() {
               Equals is the only spreadsheet with built-in connections to any
               database, versioning, and collaboration.
             </p>
+
+            <label>
+              <img src={mail} />
+              <input type="text" placeholder="Enter your email"></input>
+              <button>Sign in</button>
+            </label>
           </div>
         </div>
       </div>
